@@ -1,0 +1,140 @@
+@media screen and (max-width: 1280px) {
+    .area_films{
+        grid-template-columns: repeat(5, 1fr);
+    }
+}
+
+@media screen and (max-width: 1080px) {
+    .area_films {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .img_mask {
+        max-width: 183px;
+        max-height: 274px;
+    }
+    
+    .caption {
+        max-width: 183px;
+        max-height: 130px;
+    }
+    
+    .film_name {
+        max-width: 183px;
+    }
+    
+    .time_add {
+        max-width: 183px;
+        max-height: 20px;
+    }
+    
+    .button_detailed {
+        max-width: 183px;
+        max-height: 50px;
+    }
+}
+
+@media screen and (max-width: 760px) {
+    .inter_medium_cararra_16px {
+        font-size: var(--font-size-xl);
+    }
+
+    .inter_medium_white_20px {
+        font-size: var(--font-size-xl);
+    }
+    
+    .inter_normal_mountain_mist_14px {
+        font-size: var(--font-size-m);
+    }
+
+    .inter_semi_bold_california_14px {
+        font-size: var(--font-size-m);
+    }
+
+    .header {
+        height: 100px;
+    }
+
+    .rectangle_head {
+        margin-top: 15px;
+    }
+
+    .logo {
+        height: 100%;
+    }
+    
+    .logotype {
+        height: 100%;
+        width: 100%;
+    }
+    
+    .site_name {
+        margin-left: 0;
+        width: 0;
+        display: none;
+    }
+
+    h1 {
+        font-size: var(--font-size-xxxl);
+    }
+
+    .button_add {
+        border-radius: 20px;
+    }
+
+    .add {
+        border: 1px none;
+        height: 50px;
+        width: 50px;
+    }
+    
+    .add_review {
+        width: 0;
+        display: none;
+    }
+
+    .area_films {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .card {
+        margin: 20px auto;
+        padding: 0;
+        border-radius: 20px;
+    }
+
+    .img_mask {
+        max-width: 250px;
+        max-height: 450px;
+        border-radius: 20px;
+    }
+    
+    .caption {
+        max-width: 250px;
+        max-height: 400px;
+    }
+    
+    .film_name {
+        max-width: 250px;
+        max-height: 80px;
+        
+        margin: 10px 0;
+    }
+    
+    .time_add {
+        max-width: 250px;
+        max-height: 50px;
+        margin: 10px 0;
+    }
+    
+    .button_detailed {
+        max-width: 250px;
+        max-height: 100px;
+        border-radius: 20px;
+    }
+    
+    .detailed {
+        line-height: 30px;
+        margin: 0 auto;
+    }
+}
