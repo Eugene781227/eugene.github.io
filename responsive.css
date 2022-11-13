@@ -9,6 +9,10 @@
         grid-template-columns: repeat(3, 1fr);
     }
 
+    .card {
+        margin: 10px auto;
+    }
+
     .img_mask {
         max-width: 183px;
         max-height: 274px;
@@ -34,7 +38,7 @@
     }
 }
 
-@media screen and (max-width: 760px) {
+@media screen and (max-width: 750px) {
     .inter_medium_cararra_16px {
         font-size: var(--font-size-xl);
     }
@@ -101,6 +105,8 @@
         margin: 20px auto;
         padding: 0;
         border-radius: 20px;
+        max-width: 195px;
+        max-height: 490px;
     }
 
     .img_mask {
@@ -116,8 +122,8 @@
     
     .film_name {
         max-width: 250px;
-        max-height: 80px;
-        
+        max-height: 70px;
+        line-height: 37px;
         margin: 10px 0;
     }
     

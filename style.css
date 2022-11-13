@@ -237,7 +237,7 @@ h1 {
 }
 
 .film_name {
-    height: 50px;
+    max-height: 50px;
     width: 100%;
     word-break: normal;
     letter-spacing: 0;
