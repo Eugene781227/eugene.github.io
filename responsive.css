@@ -38,7 +38,7 @@
     }
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 760px) {
     .inter_medium_cararra_16px {
         font-size: var(--font-size-xl);
     }
