@@ -5,6 +5,62 @@
 }
 
 @media screen and (max-width: 1080px) {
+    .columns {
+        display: inline-block;
+    }
+
+    .col_picture {
+        margin: 10px 0;
+        width: 25%;
+        display: inline-block;
+    }
+
+    .col_text {
+        margin: -10px 20px;
+        width: 70%;
+        height: fit-content;
+        display: inline-block;
+    }
+    
+    .image_film {
+        width: 100%;
+    }
+
+    .under_header_article {
+        margin: 10px auto;
+        width: 100%;
+        display: inline-block;
+    }
+
+    .button_trailer_first {
+        display: none;
+    }
+
+    .article {
+        display: inline;
+        width: 100%;
+        min-width: 500px;
+        margin: 40px 10px;
+    }
+
+    .button_area {
+        width: 100%;
+        display: inline-block;
+        margin: 0 auto;
+    }
+    
+    .button_trailer_second {
+        align-items: center;
+        justify-content: center;
+        display: inline-block;
+        width: fit-content;
+        height: 60px;
+    }
+
+    .button_back {
+        display: inline-block;
+    }
+
     .area_films {
         grid-template-columns: repeat(3, 1fr);
     }
